@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50PX;
+        }
+        .login-from {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .login-from input,button{
+            font-weight: 700px;
+            padding: 10px;
+            
+        }
+        button{
+            margin-top: 10px;
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="login-container">
+        <form class="login-from" action="">
+            <h2>Please Login</h2>
+            <input type="email" placeholder="Please enter your email" required>
+            <input type="password" placeholder="Please Enter Password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
